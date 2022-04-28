@@ -35,6 +35,9 @@ public class Calc {
                 int f = x * y;
                 System.out.println("Произведение равно: " + f);
                 break;
+            default:
+                System.out.println("Введено не верное действие");
+                break;
         }
 
 
